@@ -10,7 +10,6 @@ var _data = require('./lib/data');
 var handlers = require('./lib/handlers');
 var helpers = require('./lib/helpers');
 
-
  // instantiating the http server
 var httpServer = http.createServer(function(req,res){
   unifiedServer(req,res);
